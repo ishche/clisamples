@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.pcj:google-options:1.0.0'
+    implementation 'info.picocli:picocli:4.5.2'
+    implementation 'commons-cli:commons-cli:1.4'
+}
